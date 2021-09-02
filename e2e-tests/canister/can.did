@@ -1,0 +1,4 @@
+service : {
+    "set_module" : (blob) -> ();
+    "execute" : (vec int32) -> (vec int32);
+}

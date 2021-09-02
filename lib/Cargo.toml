@@ -1,0 +1,11 @@
+[package]
+name = "ic-wasmi"
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+description = "WASM interpreter to run web assembly inside an IC canister"
+
+[dependencies]
+ic-cdk = "0.3.1"
+serde = "1.0.126"
+rust-wasm = { path = "../rust-wasm" }

@@ -1,0 +1,3 @@
+[submodule "rust-wasm"]
+	path = rust-wasm
+	url = https://github.com/yblein/rust-wasm

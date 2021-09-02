@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "on-chain-wasm-interpreter": {
+      "build": "./build.sh",
+      "candid": "./can.did",
+      "wasm": "./target/wasm32-unknown-unknown/release/on-chain-wasm-interpreter-opt.wasm",
+      "type": "custom"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.7.2",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
